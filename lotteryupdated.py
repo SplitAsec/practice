@@ -72,6 +72,6 @@ elif hit == 5:
 elif hit == 4:
     print('축하합니다! 4등에 당첨되셨습니다!') #4th place. hit only 4 times
 elif hit == 3:
-    print('축하합니다! 5등에 당첨되셨습니다!') #5th place. hit only 5 times.
+    print('축하합니다! 5등에 당첨되셨습니다!') #5th place. hit only 3 times.
 else:
     print('아쉽습니다. 꽝입니다.') #No prize for you :P
