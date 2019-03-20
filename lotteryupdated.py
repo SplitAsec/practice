@@ -1,8 +1,13 @@
-import random, time
+import random
+import time
+
+
 def random_pop(data):
-    number = random.randint(1,len(data)-1)
+    number = random.randint(1, len(data)-1)
     return data.pop(number)
-lotto = list(range(2,46))
+
+
+lotto = list(range(1, 46))
 seq = 1
 picks = []
 input1 = input('어느 방식으로 복권을 구매하시겠습니까? (자동 / 수동) : ')
@@ -35,7 +40,7 @@ while input1:
     break
 print('추첨을 시작합니다.')
 time.sleep(3)
-lotto = list(range(1,46))
+lotto = list(range(1, 46))
 seq = 1
 chosenlist = []
 while seq <= 7:
