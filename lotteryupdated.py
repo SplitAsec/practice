@@ -33,6 +33,7 @@ while input1:
                     print(f'{seq}번에 {pickn}을/를 고르셨습니다.')
                     picks.append(pickn)
                     seq += 1
+                    break
     else: #wrong input; asking once again.
         input1 = input("'자동' 또는 '수동'을 입력해주세요 : ")
         continue
